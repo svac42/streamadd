@@ -1,26 +1,23 @@
-[
-  {
-    "id": "template",
-    "name": "Template Provider",
-    "description": "Safe starter provider for Nuvio development. Returns no streams until you add your own authorized source logic.",
-    "version": "1.0.1",
-    "author": "Your Name",
-    "supportedTypes": [
-      "movie",
-      "tv"
-    ],
-    "filename": "providers/_template.js",
-    "enabled": true,
-    "logo": "Assets/Logo-2.png",
-    "contentLanguage": [
-      "en"
-    ],
-    "formats": [
-      "mp4",
-      "mkv"
-    ],
-    "limited": false,
-    "disabledPlatforms": [],
-    "supportsExternalPlayer": true
-  }
-]
+{
+  "id": "streamadd-template",
+  "name": "StreamAdd Template",
+  "description": "Template provider for Nuvio testing",
+  "version": "1.0.1",
+  "author": "svac42",
+  "supportedTypes": [
+    "movie",
+    "tv"
+  ],
+  "filename": "providers/_template.js",
+  "enabled": true,
+  "contentLanguage": [
+    "en"
+  ],
+  "formats": [
+    "mp4",
+    "mkv"
+  ],
+  "limited": false,
+  "disabledPlatforms": [],
+  "supportsExternalPlayer": true
+}
